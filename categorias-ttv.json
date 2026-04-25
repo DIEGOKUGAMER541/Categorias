@@ -1,48 +1,186 @@
 {
-  "Minecraft": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg",
-  "Hytale": "https://static-cdn.jtvnw.net/ttv-boxart/1003606006_IGDB-285x380.jpg",
-  "Battlefield REDSEC": "https://static-cdn.jtvnw.net/ttv-boxart/1848745913_IGDB-285x380.jpg",
-  "Battlefield 6": "https://static-cdn.jtvnw.net/ttv-boxart/168648543_IGDB-285x380.jpg",
-  "VALORANT": "https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg",
-  "Call of Duty: Mobile": "https://static-cdn.jtvnw.net/ttv-boxart/512818_IGDB-285x380.jpg",
-  "Grand Theft Auto V": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
-  "Delta Force": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-285x380.jpg",
-  "Rainbow Six Siege": "https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg",
-  "Apex Legends": "https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg",
-  "PUBG: BATTLEGROUNDS": "https://static-cdn.jtvnw.net/ttv-boxart/493057-285x380.jpg",
-  "ROBLOX": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
-  "Marvel Rivals": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-285x380.jpg",
-  "Call of Duty: Warzone": "https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg",
-  "Among Us": "https://static-cdn.jtvnw.net/ttv-boxart/510218_IGDB-285x380.jpg",
-  "Rocket League": "https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg",
-  "Counter-Strike": "https://static-cdn.jtvnw.net/ttv-boxart/32399-285x380.jpg",
-  "Fortnite": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
-  "Call of Duty: Black Ops 7": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-285x380.jpg",
-  "ARC Raiders": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-285x380.jpg",
-  "Escape from Tarkov": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-285x380.jpg",
-  "Clash Royale": "https://static-cdn.jtvnw.net/ttv-boxart/491168_IGDB-285x380.jpg",
-  "Overwatch": "https://static-cdn.jtvnw.net/ttv-boxart/515025-285x380.jpg",
-  "Hollow Knight: Silksong": "https://static-cdn.jtvnw.net/ttv-boxart/511391_IGDB-285x380.jpg",
-  "R.E.P.O.": "https://static-cdn.jtvnw.net/ttv-boxart/1294658629_IGDB-285x380.jpg",
-  "Forza Horizon 5": "https://static-cdn.jtvnw.net/ttv-boxart/1757732267_IGDB-285x380.jpg",
-  "League of Legends": "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
-  "World of Warcraft": "https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg",
-  "Rust": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
-  "Dota 2": "https://static-cdn.jtvnw.net/ttv-boxart/29595-285x380.jpg",
-  "Kings League": "https://static-cdn.jtvnw.net/ttv-boxart/1863222988-285x380.jpg",
-  "Dead by Daylight": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
-  "DayZ": "https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-285x380.jpg",
-  "PRAGMATA": "https://static-cdn.jtvnw.net/ttv-boxart/518018_IGDB-144x192.jpg",
-  "Grand Theft Auto: San Andreas":"https://static-cdn.jtvnw.net/ttv-boxart/6521_IGDB-144x192.jpg",
-  "Terraria":"https://static-cdn.jtvnw.net/ttv-boxart/31376_IGDB-144x192.jpg",
-  "Tomodachi Life: Living the Dream":"https://static-cdn.jtvnw.net/ttv-boxart/1099705332_IGDB-144x192.jpg",
-  "Dangerous Mountain Togethe": "https://static-cdn.jtvnw.net/ttv-boxart/129636408_IGDB-144x192.jpg",
-  "QSMP": "https://static-cdn.jtvnw.net/ttv-boxart/1422023940-144x192.jpg",
-  "PEAK": "https://static-cdn.jtvnw.net/ttv-boxart/1081998272_IGDB-144x192.jpg",
-  "Teamfight Tactics":"https://static-cdn.jtvnw.net/ttv-boxart/513143-144x192.jpg",
-  "Comedy Night":"https://static-cdn.jtvnw.net/ttv-boxart/83755_IGDB-144x192.jpg",
-  "Special Events": "https://static-cdn.jtvnw.net/ttv-boxart/509663-144x192.jpg",
-  "ASMR": "https://static-cdn.jtvnw.net/ttv-boxart/509659-285x380.jpg",
-  "IRL": "https://static-cdn.jtvnw.net/ttv-boxart/509672-285x380.jpg",
-  "Just Chatting": "https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg"
+  "Minecraft": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/minecraft"
+  },
+  "Hytale": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1003606006_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/hytale"
+  },
+  "Battlefield REDSEC": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1848745913_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/battlefield-redsec"
+  },
+  "Battlefield 6": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/168648543_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/battlefield-6"
+  },
+  "VALORANT": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/valorant"
+  },
+  "Grand Theft Auto V": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/grand-theft-auto-v"
+  },
+  "Delta Force": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/delta-force"
+  },
+  "Rainbow Six Siege": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/rainbow-six-siege"
+  },
+  "Apex Legends": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/apex-legends"
+  },
+  "PUBG: BATTLEGROUNDS": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/493057-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/pubg-battlegrounds"
+  },
+  "ROBLOX": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/roblox"
+  },
+  "Marvel Rivals": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/marvel-rivals"
+  },
+  "Call of Duty: Mobile": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/512818_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/call-of-duty-mobile"
+  },
+  "Call of Duty: Warzone": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/call-of-duty-warzone"
+  },
+  "Among Us": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/510218_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/among-us"
+  },
+  "Rocket League": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/rocket-league"
+  },
+  "Counter-Strike": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/32399-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/counter-strike"
+  },
+  "Fortnite": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/fortnite"
+  },
+  "Call of Duty: Black Ops 7": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/call-of-duty-black-ops-7"
+  },
+  "ARC Raiders": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/arc-raiders"
+  },
+  "Escape from Tarkov": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/escape-from-tarkov"
+  },
+  "Clash Royale": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/491168_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/clash-royale"
+  },
+  "Overwatch": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/515025-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/overwatch"
+  },
+  "Hollow Knight: Silksong": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/511391_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/hollow-knight-silksong"
+  },
+  "R.E.P.O.": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1294658629_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/r-e-p-o"
+  },
+  "Forza Horizon 5": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1757732267_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/forza-horizon-5"
+  },
+  "League of Legends": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/league-of-legends"
+  },
+  "World of Warcraft": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/world-of-warcraft"
+  },
+  "Rust": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/rust"
+  },
+  "Dota 2": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/29595-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/dota-2"
+  },
+  "Kings League": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1863222988-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/kings-league"
+  },
+  "Dead by Daylight": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/dead-by-daylight"
+  },
+  "DayZ": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/dayz"
+  },
+  "PRAGMATA": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/518018_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/pragmata"
+  },
+  "Grand Theft Auto: San Andreas": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/6521_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/grand-theft-auto-san-andreas"
+  },
+  "Terraria": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/31376_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/terraria"
+  },
+  "Tomodachi Life: Living the Dream": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1099705332_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/tomodachi-life-living-the-dream"
+  },
+  "Dangerous Mountain Together": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/129636408_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/dangerous-mountain-together"
+  },
+  "QSMP": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1422023940-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/qsmp"
+  },
+  "PEAK": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1081998272_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/peak"
+  },
+  "Teamfight Tactics": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/513143-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/teamfight-tactics"
+  },
+  "Comedy Night": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/83755_IGDB-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/comedy-night"
+  },
+  "Special Events": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509663-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/special-events"
+  },
+  "ASMR": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509659-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/asmr"
+  },
+  "IRL": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509672-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/irl"
+  },
+  "Just Chatting": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/just-chatting"
   }
+}
