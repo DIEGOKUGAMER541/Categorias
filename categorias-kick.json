@@ -142,5 +142,21 @@
   "Just Chatting": {
     "img": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp",
     "url": "https://www.kick.com/category/just-chatting"
+  },
+  "Fitness & Health": {
+    "img": "https://files.kick.com/images/subcategories/22/banner/responsives/30c84c80-6d6e-4935-b286-b8997539b27f___banner_205_273.webp",
+    "url": "https://www.kick.com/category/fitness-and-health"
+  },
+  "Art": {
+    "img": "https://files.kick.com/images/subcategories/32/banner/responsives/a5ba9fcd-fb9e-41a2-a742-10c6ed81959c___banner_294_392.webp",
+    "url": "https://www.kick.com/category/art"
+  },
+  "Graphic Design": {
+    "img": "https://files.kick.com/images/subcategories/33/banner/responsives/graphic-design___banner_294_392.webp",
+    "url": "https://www.kick.com/category/graphic-design"
+  },
+  "Sports": {
+    "img": "https://files.kick.com/images/subcategories/75/banner/responsives/sports___banner_205_273.webp",
+    "url": "https://www.kick.com/category/sports"
   }
 }
