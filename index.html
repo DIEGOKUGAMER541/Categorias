@@ -129,7 +129,7 @@
       max-width: 300px;
       border: 2px solid #00fbff;
     }
-    .about-content h2 {
+    .about-content h3 {
       color: #d000ff;
     }
     .links {
@@ -153,7 +153,12 @@
     h1 {
       text-align: center;
       margin-bottom: 20px;
-      color:#00FBFF
+      color:#9200fa
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color:#00fa1d
     }
       p{
         color: #00fbff;
@@ -167,12 +172,16 @@
 
 <h1>CATEGORIAS TWITCH</h1>
 
-<div class="grid" id="contenedor"></div>
+<div class="grid" id="contenedor1"></div>
+
+<h2>CATEGORIAS KICK</h2>
+
+<div class="grid" id="contenedor2"></div>
 
 <div class="about-btn" onclick="toggleAbout()">ℹ</div>
 <div class="about-panel" id="aboutPanel">
   <div class="about-content">
-    <h2>Acerca de</h2>
+    <h3>Acerca de</h3>
     <p>Desarrollado por DIEGOKUGAMER541</p>
     <div class="links">
     <a href="https://diegokugamer541.github.io/GENERADOR-DE-QR" target="_blank">Generador de QR</a>
@@ -191,12 +200,13 @@
   </div>
 </div>
 <script>
-const contenedor = document.getElementById("contenedor");
+const contenedor1 = document.getElementById("contenedor1");
+const contenedor2 = document.getElementById("contenedor2");
 
 fetch("categorias-ttv.json")
   .then(res => res.json())
   .then(data => {
-    for (const titulo in data) {
+  for (const titulo in data) {
   const info = data[titulo];
 
   const card = document.createElement("div");
@@ -218,7 +228,37 @@ fetch("categorias-ttv.json")
 
   card.appendChild(img);
   card.appendChild(text);
-  contenedor.appendChild(card);
+  contenedor1.appendChild(card);
+}
+  })
+  .catch(err => console.error("Error:", err));
+
+fetch("categorias-kick.json")
+  .then(res => res.json())
+  .then(data => {
+  for (const titulo in data) {
+  const info = data[titulo];
+
+  const card = document.createElement("div");
+  card.className = "card";
+
+  const img = document.createElement("img");
+  img.src = info.img;
+  img.alt = titulo;
+  img.loading = "lazy";
+
+  img.style.cursor = "pointer";
+  img.onclick = () => {
+    window.open(info.url, "_blank");
+  };
+
+  const text = document.createElement("div");
+  text.className = "title";
+  text.textContent = titulo;
+
+  card.appendChild(img);
+  card.appendChild(text);
+  contenedor2.appendChild(card);
 }
   })
   .catch(err => console.error("Error:", err));
