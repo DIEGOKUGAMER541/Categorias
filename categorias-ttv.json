@@ -55,6 +55,10 @@
     "img": "https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg",
     "url": "https://www.twitch.tv/directory/category/call-of-duty-warzone"
   },
+  "Call of Duty: Black Ops 7": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/call-of-duty-black-ops-7"
+  },
   "Among Us": {
     "img": "https://static-cdn.jtvnw.net/ttv-boxart/510218_IGDB-285x380.jpg",
     "url": "https://www.twitch.tv/directory/category/among-us"
@@ -70,10 +74,6 @@
   "Fortnite": {
     "img": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
     "url": "https://www.twitch.tv/directory/category/fortnite"
-  },
-  "Call of Duty: Black Ops 7": {
-    "img": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-285x380.jpg",
-    "url": "https://www.twitch.tv/directory/category/call-of-duty-black-ops-7"
   },
   "ARC Raiders": {
     "img": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-285x380.jpg",
@@ -182,5 +182,33 @@
   "Just Chatting": {
     "img": "https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg",
     "url": "https://www.twitch.tv/directory/category/just-chatting"
+  },
+  "Fitness & Health": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509671-285x380.jpg",
+    "url": "https://www.twitch.tv/directory/category/fitness-and-health"
+  },
+  "Music": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/26936-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/music"
+  },
+  "Art": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509660-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/art"
+  },
+  "Software and Game Development": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/1469308723-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/software-and-game-development"
+  },
+  "Makers & Crafting": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509673-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/makers-and-crafting"
+  },
+  "Sports": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509674-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/sports"
+  },
+  "Science & Technology": {
+    "img": "https://static-cdn.jtvnw.net/ttv-boxart/509670-144x192.jpg",
+    "url": "https://www.twitch.tv/directory/category/science-and-technology"
   }
 }
