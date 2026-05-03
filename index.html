@@ -1,431 +1,303 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Games Galery</title>
-    <link
-      rel="icon"
-      href="https://mc-heads.net/avatar/diegokugamer541"
-      type="image/png"
-    />
-    <style>
-      ::-webkit-scrollbar {
-        display: none;
-      }
-      html,
-      body {
-        scrollbar-width: none;
-      }
-      body {
-        -ms-overflow-style: none;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games Galery</title>
+  <link rel="icon" href="https://mc-heads.net/avatar/diegokugamer541" type="image/png"/>
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    html,
+    body {
+      scrollbar-width: none;
+    }
+    body {
+      -ms-overflow-style: none;
+    }
 
-      body {
-        font-family: Arial, sans-serif;
-        background: #0f172a;
-        color: white;
-        margin: 0;
-        padding: 15px;
-      }
-      @media (max-width: 600px) {
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 15px;
+    }
+    @media (max-width: 600px) {
         body {
           padding: 10px;
         }
       }
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 15px;
-      }
-      .card {
-        background: #30084c;
-        border-radius: 12px;
-        border: 2px solid #c800ff;
-        overflow: hidden;
-        text-align: center;
-        transition: transform 0.2s;
-        position: relative;
-      }
-      .card:hover {
-        transform: scale(1.05);
-      }
-      .badge {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        padding: 3px 6px;
-        font-size: 10px;
-        font-weight: bold;
-        border-radius: 6px;
-        color: white;
-        z-index: 10;
-      }
-
-      /* Twitch */
-      .badge.twitch {
-        background: #9146ff;
-      }
-
-      /* Kick */
-      .badge.kick {
-        background: #00ff99;
-        color: black;
-      }
-      .badge {
-        display: none;
-      }
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-      .title {
-        padding: 10px;
-        font-size: 14px;
-        color: #ff7700;
-        display: block;
-        text-decoration: none;
-      }
-      select {
-        width: 100%;
-        padding: 12px;
-        background: #333;
-        border: 2px solid #c800ff;
-        color: #129395f1;
-        border-radius: 8px;
-      }
-      button {
-        background: #333;
-        color: #00fbff;
-        border: 2px solid #00fbff;
-        font-weight: bold;
-        margin-top: 10px;
-        padding: 10px;
-        border-radius: 8px;
-        cursor: pointer;
-      }
-      button:hover {
-        background: #00fbff;
-        color: black;
-        border-color: #00fbff;
-      }
-      .about-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: #333;
-        color: #00fbff;
-        border: 2px solid #00fbff;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        font-size: 22px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: 0.3s;
-        z-index: 1000;
-      }
-      .about-btn:hover {
-        background: #00fbff;
-        color: #333;
-      }
-      .about-panel {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #000000cc;
-        backdrop-filter: blur(8px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.3s;
-      }
-      .about-panel.active {
-        opacity: 1;
-        pointer-events: all;
-      }
-      .about-content {
-        background: #1f1f1f;
-        padding: 25px;
-        border-radius: 15px;
-        text-align: center;
-        width: 90%;
-        max-width: 300px;
-        border: 2px solid #00fbff;
-      }
-      .about-content h3 {
-        color: #d000ff;
-      }
-      .links {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin: 15px 0;
-      }
-      .links a {
-        text-decoration: none;
-        color: #00fbff;
-        background: #333;
-        padding: 10px;
-        border-radius: 8px;
-        transition: 0.3s;
-      }
-      .links a:hover {
-        background: #00fbff;
-        color: #333;
-      }
-      h1 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #9200fa;
-      }
-      h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #00fa1d;
-      }
-      p {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #30084c;
+      border-radius: 12px;
+      border: 2px solid #c800ff;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .title {
+      padding: 10px;
+      font-size: 14px;
+      color:#ff7700;
+      display: block;
+      text-decoration: none;
+    }
+    select {
+      width: 100%;
+      padding: 12px;
+      background: #333;
+      border: 2px solid #c800ff;
+      color: #129395f1;
+      border-radius: 8px;
+    }
+    button {
+      background: #333;
+      color: #00fbff;
+      border: 2px solid #00fbff;
+      font-weight: bold;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #00FBFF;
+      color: black;
+      border-color: #00FBFF;
+    }
+    .about-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #333;
+      color: #00fbff;
+      border: 2px solid #00fbff;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.3s;
+      z-index: 1000;
+    }
+    .about-btn:hover {
+      background: #00fbff;
+      color: #333;
+    }
+    .about-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000000cc;
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+    .about-panel.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .about-content {
+      background: #1f1f1f;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      width: 90%;
+      max-width: 300px;
+      border: 2px solid #00fbff;
+    }
+    .about-content h3 {
+      color: #d000ff;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 15px 0;
+    }
+    .links a {
+      text-decoration: none;
+      color: #00fbff;
+      background: #333;
+      padding: 10px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: #00fbff;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color:#9200fa
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color:#00fa1d
+    }
+    p{
         color: #7c0397;
-      }
-      .titulo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-      }
-      .logo {
-        width: 28px;
-        height: 28px;
-        transition: all 0.25s ease;
-        cursor: pointer;
-      }
-      .logo:hover {
-        transform: scale(1.2);
-        filter: brightness(1.3);
-      }
-      .titulo-link {
-        font-size: 24px;
-        font-weight: bold;
-        text-decoration: none;
-        transition: all 0.25s ease;
-        cursor: pointer;
-      }
-      body.buscando h1.titulo,
-      body.buscando h2.titulo {
-        display: none;
-      }
+    }
+    .titulo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .logo {
+      width: 28px;
+      height: 28px;
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+    .logo:hover {
+      transform: scale(1.2);
+      filter: brightness(1.3);
+    }
+    .titulo-link {
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
 
-      body.buscando #contenedor1,
-      body.buscando #contenedor2 {
-        display: none;
-      }
-      #buscador {
-        width: 60%;
-        max-width: 400px;
-        padding: 8px 12px;
-        margin: 0 auto 15px;
-        display: block;
-        border-radius: 8px;
-        border: 2px solid #c800ff;
-        background: #1e293b;
-        color: white;
-        outline: none;
-        font-size: 14px;
-        transition: 0.2s;
-      }
-    </style>
-  </head>
-  <body>
-    <input type="text" id="buscador" placeholder="Buscar juego..." />
-    <div id="resultados" class="grid"></div>
-    <h1 class="titulo">
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"
-        class="logo"
-        onclick="window.open('https://www.twitch.tv', '_blank')"
-      />
-      <span
-        class="titulo-link"
-        onclick="window.open('https://www.twitch.tv/directory', '_blank')"
-      >
-        TWITCH
-      </span>
-    </h1>
-    <div class="grid" id="contenedor1"></div>
+<h1 class="titulo">
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png" class="logo"
+    onclick="window.open('https://www.twitch.tv','_blank')">
+  <span class="titulo-link"
+    onclick="window.open('https://www.twitch.tv/directory','_blank')">
+    TWITCH
+  </span>
+</h1>
+<div class="grid" id="contenedor1"></div>
 
-    <h2 class="titulo">
-      <img
-        src="https://i.imgur.com/hTgZWJ8.png"
-        class="logo"
-        onclick="window.open('https://www.kick.com', '_blank')"
-      />
-      <span
-        class="titulo-link"
-        onclick="window.open('https://kick.com/browse/categories', '_blank')"
-      >
-        KICK
-      </span>
-    </h2>
-    <div class="grid" id="contenedor2"></div>
+<h2 class="titulo">
+  <img src="https://i.imgur.com/hTgZWJ8.png" class="logo"
+    onclick="window.open('https://www.kick.com','_blank')">
+  <span class="titulo-link"
+    onclick="window.open('https://kick.com/browse/categories','_blank')">
+    KICK
+  </span>
+</h2>
+<div class="grid" id="contenedor2"></div>
 
-    <div class="about-btn" onclick="toggleAbout()">ℹ</div>
-    <div class="about-panel" id="aboutPanel">
-      <div class="about-content">
-        <h3>Acerca de</h3>
-        <p>Desarrollado por DIEGOKUGAMER541</p>
-        <div class="links">
-          <a
-            href="https://diegokugamer541.github.io/GENERADOR-DE-QR"
-            target="_blank"
-            >Generador de QR</a
-          >
-          <a
-            href="https://diegokugamer541.github.io/GENERADOR-DE-MANIFEST"
-            target="_blank"
-            >Generador de Manifest</a
-          >
-          <a
-            href="https://diegokugamer541.github.io/TEXTO-A-IMAGEN"
-            target="_blank"
-            >Texto a imagen</a
-          >
-          <a href="https://bedpks.com" target="_blank">BedPKS</a>
-          <a href="https://youtube.com/@diegokugamer541" target="_blank"
-            >YouTube</a
-          >
-          <a href="https://twitch.tv/diegokugamer541" target="_blank">Twitch</a>
-          <a href="https://discord.gg/AMCtjwVNvk" target="_blank"
-            >Discord Minecraft</a
-          >
-          <a href="https://github.com/DIEGOKUGAMER541" target="_blank"
-            >GitHub</a
-          >
-          <a href="https://youtube.com/@ipodcraft" target="_blank"
-            >Youtube Ipodcraft</a
-          >
-          <a href="https://twitch.tv/ipodcraftyt" target="_blank"
-            >Twitch IpodcraftYT</a
-          >
-          <a href="https://ipodcraft.com" target="_blank"> Ipodcraft web</a>
-        </div>
-        <button onclick="toggleAbout()">Cerrar</button>
-      </div>
+<div class="about-btn" onclick="toggleAbout()">ℹ</div>
+<div class="about-panel" id="aboutPanel">
+  <div class="about-content">
+    <h3>Acerca de</h3>
+    <p>Desarrollado por DIEGOKUGAMER541</p>
+    <div class="links">
+    <a href="https://diegokugamer541.github.io/GENERADOR-DE-QR" target="_blank">Generador de QR</a>
+    <a href="https://diegokugamer541.github.io/GENERADOR-DE-MANIFEST" target="_blank">Generador de Manifest</a>
+    <a href="https://diegokugamer541.github.io/TEXTO-A-IMAGEN" target="_blank">Texto a imagen</a>
+    <a href="https://bedpks.com" target="_blank">BedPKS</a>
+    <a href="https://youtube.com/@diegokugamer541" target="_blank">YouTube</a>
+    <a href="https://twitch.tv/diegokugamer541" target="_blank">Twitch</a>
+    <a href="https://discord.gg/AMCtjwVNvk"   target="_blank">Discord Minecraft</a>
+    <a href="https://github.com/DIEGOKUGAMER541" target="_blank">GitHub</a>
+    <a href="https://youtube.com/@ipodcraft" target="_blank">Youtube Ipodcraft</a>
+    <a href="https://twitch.tv/ipodcraftyt" target="_blank">Twitch IpodcraftYT</a>
+    <a href="https://ipodcraft.com" target="_blank"> Ipodcraft web</a>
     </div>
-    <script>
-      const contenedor1 = document.getElementById("contenedor1");
-      const contenedor2 = document.getElementById("contenedor2");
+    <button onclick="toggleAbout()">Cerrar</button>
+  </div>
+</div>
+<script>
+const contenedor1 = document.getElementById("contenedor1");
+const contenedor2 = document.getElementById("contenedor2");
 
-      fetch("categorias-ttv.json")
-        .then((res) => res.json())
-        .then((data) => {
-          for (const titulo in data) {
-            const info = data[titulo];
+fetch("categorias-ttv.json")
+  .then(res => res.json())
+  .then(data => {
+  for (const titulo in data) {
+  const info = data[titulo];
 
-            const card = document.createElement("div");
-            card.className = "card";
-            card.setAttribute("data-title", titulo.toLowerCase());
-            const badge = document.createElement("div");
-            badge.className = "badge twitch";
-            badge.textContent = "Twitch";
-            card.appendChild(badge);
-            const img = document.createElement("img");
-            img.src = info.img;
-            img.alt = titulo;
-            img.loading = "lazy";
-            card.style.cursor = "pointer";
-            card.onclick = () => {
-              window.open(info.url, "_blank");
-            };
+  const card = document.createElement("div");
+  card.className = "card";
 
-            const text = document.createElement("div");
-            text.className = "title";
-            text.textContent = titulo;
+  const img = document.createElement("img");
+  img.src = info.img;
+  img.alt = titulo;
+  img.loading = "lazy";
+  card.style.cursor = "pointer";
+  card.onclick = () => {
+    window.open(info.url, "_blank");
+  };
 
-            card.appendChild(img);
-            card.appendChild(text);
-            contenedor1.appendChild(card);
-          }
-        })
-        .catch((err) => console.error("Error:", err));
+  const text = document.createElement("div");
+  text.className = "title";
+  text.textContent = titulo;
 
-      fetch("categorias-kick.json")
-        .then((res) => res.json())
-        .then((data) => {
-          for (const titulo in data) {
-            const info = data[titulo];
+  card.appendChild(img);
+  card.appendChild(text);
+  contenedor1.appendChild(card);
+}
+  })
+  .catch(err => console.error("Error:", err));
 
-            const card = document.createElement("div");
-            card.className = "card";
-            card.setAttribute("data-title", titulo.toLowerCase());
-            const badge = document.createElement("div");
-            badge.className = "badge kick";
-            badge.textContent = "Kick";
-            card.appendChild(badge);
-            const img = document.createElement("img");
-            img.src = info.img;
-            img.alt = titulo;
-            img.loading = "lazy";
-            card.style.cursor = "pointer";
-            card.onclick = () => {
-              window.open(info.url, "_blank");
-            };
+fetch("categorias-kick.json")
+  .then(res => res.json())
+  .then(data => {
+  for (const titulo in data) {
+  const info = data[titulo];
 
-            const text = document.createElement("div");
-            text.className = "title";
-            text.textContent = titulo;
+  const card = document.createElement("div");
+  card.className = "card";
 
-            card.appendChild(img);
-            card.appendChild(text);
-            contenedor2.appendChild(card);
-          }
-        })
-        .catch((err) => console.error("Error:", err));
+  const img = document.createElement("img");
+  img.src = info.img;
+  img.alt = titulo;
+  img.loading = "lazy";
+  card.style.cursor = "pointer";
+  card.onclick = () => {
+    window.open(info.url, "_blank");
+  };
 
-      function toggleAbout() {
-        const panel = document.getElementById("aboutPanel");
-        panel.classList.toggle("active");
-      }
+  const text = document.createElement("div");
+  text.className = "title";
+  text.textContent = titulo;
 
-      buscador.addEventListener("input", () => {
-        const valor = buscador.value.toLowerCase();
+  card.appendChild(img);
+  card.appendChild(text);
+  contenedor2.appendChild(card);
+}
+  })
+  .catch(err => console.error("Error:", err));
 
-        resultados.innerHTML = "";
-
-        const cards = document.querySelectorAll(".card");
-
-        if (valor === "") {
-          document.body.classList.remove("buscando");
-
-          resultados.innerHTML = "";
-          contenedor1.style.display = "grid";
-          contenedor2.style.display = "grid";
-          return;
-        } else {
-          document.body.classList.add("buscando");
-        }
-
-        cards.forEach((card) => {
-          const titulo = card.getAttribute("data-title");
-
-          if (titulo.includes(valor)) {
-            const clon = card.cloneNode(true);
-
-            const badge = clon.querySelector(".badge");
-            if (badge) badge.style.display = "block";
-
-            clon.onclick = card.onclick;
-
-            resultados.appendChild(clon);
-          }
-        });
-      });
-    </script>
-  </body>
+  function toggleAbout() {
+  const panel = document.getElementById("aboutPanel");
+  panel.classList.toggle("active");
+}
+</script>
+</body>
 </html>
