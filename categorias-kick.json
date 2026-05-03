@@ -31,9 +31,13 @@
     "img": "https://files.kick.com/images/subcategories/1/banner/responsives/15e350ec-3408-4969-b4e2-e3d73f70ad47___banner_172_229.webp",
     "url": "https://www.kick.com/category/apex-legends"
   },
-  "PUBG: BATTLEGROUNDS": {
+  "PUBG: Battlegrounds": {
     "img": "https://files.kick.com/images/subcategories/53/banner/responsives/pubg-battlegrounds___banner_245_327.webp",
     "url": "https://www.kick.com/category/pubg-battlegrounds"
+  },
+  "PUBG Mobile": {
+    "img": "https://files.kick.com/images/subcategories/957/banner/responsives/fd20ebec-1cbb-42d5-b483-21cfcc7b4b6d___banner_205_273.webp",
+    "url": "https://www.kick.com/category/pubg-mobile"
   },
   "Marvel Rivals": {
     "img": "https://files.kick.com/images/subcategories/8098/banner/responsives/41545681-e85b-4778-9b05-1ae2962b4360___banner_199_266.webp",
@@ -123,6 +127,154 @@
     "img": "https://files.kick.com/images/subcategories/62/banner/responsives/teamfight-tactics___banner_245_327.webp",
     "url": "https://www.kick.com/category/teamfight-tactics"
   },
+  "Counter Strike": {
+    "img": "https://files.kick.com/images/subcategories/1552/banner/responsives/555d5ee4-5863-4546-8c4c-6ebca28dc60d___banner_245_327.webp",
+    "url": "https://www.kick.com/category/counter-strike-2"
+  },
+  "Mortal Kombat 1": {
+    "img": "https://files.kick.com/images/subcategories/4203/banner/responsives/f550479c-a35c-475c-a6cc-44e19d0e854e___banner_245_327.webp",
+    "url": "https://www.kick.com/category/mortal-kombat-1"
+  },
+  "EA Sports FC 26": {
+    "img": "https://files.kick.com/images/subcategories/11216/banner/responsives/37738371-bfd2-43bf-86b6-eab64d325a6a___banner_237_237.webp",
+    "url": "https://www.kick.com/category/ea-sports-fc-26"
+  },
+  "Slots & Casino": {
+    "img": "https://files.kick.com/images/subcategories/28/banner/responsives/ca01a05f-f807-4fbf-8794-3d547b1bb7a6___banner_245_327.webp",
+    "url": "https://www.kick.com/category/slots"
+  },
+  "Old School RuneScape": {
+    "img": "https://files.kick.com/images/subcategories/111/banner/responsives/f4bf565f-4258-4220-b568-2d52ae64c56b___banner_294_392.webp",
+    "url": "https://www.kick.com/category/old-school-runescape"
+  },
+  "Garena Free Fire": {
+    "img": "https://files.kick.com/images/subcategories/157/banner/responsives/28233981-a866-4c6b-9120-c01d3195cb9e___banner_245_327.webp",
+    "url": "https://www.kick.com/category/Garena-Free-Fire"
+  },
+  "DayZ": {
+    "img": "https://files.kick.com/images/subcategories/152/banner/responsives/ed759d5f-724b-4217-a4c3-abd0fbd6196c___banner_205_273.webp",
+    "url": "https://kick.com/category/DayZ"
+  },
+  "Reaction": {
+    "img": "https://files.kick.com/images/subcategories/7333/banner/responsives/e44e04cc-16a0-4fa3-b121-d358a7d28669___banner_285_380.webp",
+    "url": "https://kick.com/category/reaction"
+  },
+  "Gamble With Your Friends": {
+    "img": "https://files.kick.com/images/subcategories/13238/banner/responsives/c3847036-1b8d-49da-a4a3-11b76105555b___banner_199_199.webp",
+    "url": "https://kick.com/category/gamble-with-your-friends"
+  },
+  "Windrose": {
+    "img": "https://files.kick.com/images/subcategories/12404/banner/responsives/3e1a28a9-c43c-47f0-8ba3-ecf29e28ebf6___banner_285_285.webp",
+    "url": "https://kick.com/category/windrose"
+  },
+  "Ark: Survival Ascended": {
+    "img": "https://files.kick.com/images/subcategories/6433/banner/responsives/015ef89b-6d89-47b1-beff-66f22b9b3b87___banner_205_273.webp",
+    "url": "https://kick.com/category/ark-survival-ascended"
+  },
+  "Diablo IV": {
+    "img": "https://files.kick.com/images/subcategories/265/banner/responsives/02d640ab-c540-4d01-938a-9931876b6749___banner_205_273.webp",
+    "url": "https://kick.com/category/diablo-iv"
+  },
+  "The Last of Us Part II: Remastered": {
+    "img": "https://files.kick.com/images/subcategories/10109/banner/responsives/aea412e4-7464-4968-a7d2-3ca3ec842b6d___banner_199_265.webp",
+    "url": "https://kick.com/category/the-last-of-us-part-ii-remastered"
+  },
+  "eFootball": {
+    "img": "https://files.kick.com/images/subcategories/9192/banner/responsives/e62b55ed-2353-4bb0-a206-83652033d393___banner_199_299.webp",
+    "url": "https://kick.com/category/efootball"
+  },
+  "Phasmophobia": {
+    "img": "https://files.kick.com/images/subcategories/117/banner/responsives/c466ffc4-d740-4fa0-856e-87bd41cafaee___banner_351_468.webp",
+    "url": "https://kick.com/category/Phasmophobia"
+  },
+  "Black Desert Online": {
+    "img": "https://files.kick.com/images/subcategories/90/banner/responsives/efceabea-2ad2-4e64-a618-daf85e0f8183___banner_205_273.webp",
+    "url": "https://kick.com/category/black-desert-online"
+  },
+  "Roblox": {
+    "img": "https://files.kick.com/images/subcategories/97/banner/responsives/335b8f97-a7f9-4e0f-bb73-f09a00f27550___banner_205_273.webp",
+    "url": "https://kick.com/category/Roblox"
+  },
+  "Within of Static: Ashburg Rental": {
+    "img": "https://files.kick.com/images/subcategories/11981/banner/responsives/201ca2b5-0351-4f58-a6c6-9115529aa3fb___banner_285_285.webp",
+    "url": "https://kick.com/category/within-of-static-ashburg-rental"
+  },
+  "Tibia": {
+    "img": "https://files.kick.com/images/subcategories/108/banner/responsives/95d59ea8-b5b8-4093-87f5-b3dbcc70cd3e___banner_205_273.webp",
+    "url": "https://kick.com/category/Tibia"
+  },
+  "Lineage II": {
+    "img": "https://files.kick.com/images/subcategories/6685/banner/responsives/00293718-188c-4e20-900b-a6ef98f4073a___banner_294_392.webp",
+    "url": "https://kick.com/category/lineage-ii"
+  },
+  "Super Battle Golf": {
+    "img": "https://files.kick.com/images/subcategories/12384/banner/responsives/d71e14b3-f099-4d78-9ad7-bddae904489c___banner_238_238.webp",
+    "url": "https://kick.com/category/super-battle-golf"
+  },
+  "Brawl Stars": {
+    "img": "https://files.kick.com/images/subcategories/405/banner/responsives/f7b0255c-d07d-48d5-8886-b2e1c2a7bca2___banner_293_391.webp",
+    "url": "https://kick.com/category/brawl-stars"
+  },
+  "Akinator": {
+    "img": "https://files.kick.com/images/subcategories/3535/banner/responsives/c3780abd-8080-4cb9-973a-f171eb615e6a___banner_220_293.webp",
+    "url": "https://kick.com/category/akinator"
+  },
+  "Trees Hate You": {
+    "img": "https://files.kick.com/images/subcategories/13058/banner/responsives/ba64c093-20b4-4717-8d7f-e31f85f78d5e___banner_238_238.webp",
+    "url": "https://kick.com/category/trees-hate-you"
+  },
+  "Crab Game": {
+    "img": "https://files.kick.com/images/subcategories/332/banner/responsives/89cb60d2-22f3-4329-919b-274db5891f21___banner_420_560.webp",
+    "url": "https://kick.com/category/crab-game"
+  },
+  "Crimson Desert": {
+    "img": "https://files.kick.com/images/subcategories/12730/banner/responsives/81b6cf37-9622-4c8f-8407-d4c74b6f8ac6___banner_238_238.webp",
+    "url": "https://kick.com/category/crimson-desert"
+  },
+  "S.T.A.L.K.E.R. 2: Heart Of Chornobyl": {
+    "img": "https://files.kick.com/images/subcategories/5984/banner/responsives/3dd9c94f-fe1c-4a84-b555-089cfb3aa57b___banner_205_308.webp",
+    "url": "https://kick.com/category/stalker-2-heart-of-chornobyl"
+  },
+  "Left 4 Dead 2": {
+    "img": "https://files.kick.com/images/subcategories/190/banner/responsives/4bdf5535-3363-49de-9bb8-bf0f624fb01f___banner_205_273.webp",
+    "url": "https://kick.com/category/Left-4-Dead-2"
+  },
+  "Surgeon Simulator 2": {
+    "img": "https://files.kick.com/images/subcategories/2289/banner/responsives/0d7f1ac7-b00d-4160-b2b6-8911df6d1706___banner_199_265.webp",
+    "url": "https://kick.com/category/surgeon-simulator-2"
+  },
+  "Replaced": {
+    "img": "https://files.kick.com/images/subcategories/7793/banner/responsives/91f35aa8-64c9-410d-9b31-8c632a88d5ac___banner_184_245.webp",
+    "url": "https://kick.com/category/replaced"
+  },
+  "Triviador": {
+    "img": "https://files.kick.com/images/subcategories/4743/banner/responsives/68415db7-d235-4d76-ad9c-32737942df9c___banner_285_353.webp",
+    "url": "https://kick.com/category/triviador"
+  },
+  "Tom Clancy's The Division 2": {
+    "img": "https://files.kick.com/images/subcategories/271/banner/responsives/928e9a38-1cb7-4bbc-8bda-9b57949c19c9___banner_205_273.webp",
+    "url": "https://kick.com/category/tom-clancy's-the-division-2"
+  },
+  "Blood Strike": {
+    "img": "https://files.kick.com/images/subcategories/7744/banner/responsives/69cdb9f7-5373-43d0-abd6-14b787ee5de2___banner_238_319.webp",
+    "url": "https://kick.com/category/blood-strike"
+  },
+  "Red Dead Redemption II": {
+    "img": "https://files.kick.com/images/subcategories/109/banner/responsives/054842b8-451d-4c11-8590-11dc3b3ea5e1___banner_205_273.webp",
+    "url": "https://kick.com/category/red-dead-redemption-ii"
+  },
+  "Arena Breakout: Infinite": {
+    "img": "https://files.kick.com/images/subcategories/8283/banner/responsives/6ed1ae26-fc85-4f9a-b4cd-49f9ee350d3c___banner_316_421.webp",
+    "url": "https://kick.com/category/arena-breakout-infinite"
+  },
+  "": {
+    "img": "",
+    "url": "https://kick.com/category/"
+  },
+  "Retro Games": {
+    "img": "https://files.kick.com/images/subcategories/61/banner/responsives/retro-games___banner_245_327.webp",
+    "url": "https://kick.com/category/retro-games"
+  },
   "Comedy Night": {
     "img": "https://files.kick.com/images/subcategories/614/banner/responsives/19680e99-685a-48bd-ae9c-9eec65e3ea7b___banner_294_392.webp",
     "url": "https://www.kick.com/category/comedy-night"
@@ -158,5 +310,29 @@
   "Sports": {
     "img": "https://files.kick.com/images/subcategories/75/banner/responsives/sports___banner_205_273.webp",
     "url": "https://www.kick.com/category/sports"
+  },
+  "Chat Roulette": {
+    "img": "https://files.kick.com/images/subcategories/8548/banner/responsives/e85a48f5-71d1-43d7-8a44-4dc7bb820b57___banner_341_456.webp",
+    "url": "https://www.kick.com/category/chat-roulette"
+  },
+  "Music Stations": {
+    "img": "https://files.kick.com/images/subcategories/246/banner/responsives/aed1856e-a4c2-4d66-9e6d-439db331d922___banner_245_327.webp",
+    "url": "https://kick.com/category/music-stations"
+  },
+  "Movierooms": {
+    "img": "https://files.kick.com/images/subcategories/7503/banner/responsives/32185cf3-22b2-4445-8640-2c450e517a9a___banner_199_265.webp",
+    "url": "https://kick.com/category/movierooms"
+  },
+  "Games + Demos": {
+    "img": "https://files.kick.com/images/subcategories/242/banner/responsives/63cc7013-4106-40ca-afb1-7315184d3d3c___banner_420_560.webp",
+    "url": "https://kick.com/category/games-+-demos"
+  },
+  "VTubers": {
+    "img": "https://files.kick.com/images/subcategories/415/banner/responsives/20afafe3-9025-4d93-9bab-5d4e7694807a___banner_238_238.webp",
+    "url": "https://kick.com/category/vtubers"
+  },
+  "Live DJ": {
+    "img": "https://files.kick.com/images/subcategories/26/banner/responsives/36dd7da4-0270-4488-81f2-6cdc3553463a___banner_294_392.webp",
+    "url": "https://kick.com/category/live-dj"
   }
 }
